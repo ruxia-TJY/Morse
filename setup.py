@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-import setuptools
+from setuptools import setup,find_packages
 
 with open("README.md",'r',encoding='utf-8') as f:
     long_description = f.read()
 
-setuptools.setup(
-    name='Morse',
+setup(
+    name='Morse-ruxia-TJY',
     version='0.0.1',
     keywords='Morse encode decode',
-    description='Morse encode or decode',
+    description='Morse encode/decode',
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="ruxia-TJY",
@@ -19,7 +19,7 @@ setuptools.setup(
         "Bug Tracker":"https://github.com/ruxia-TJY/Morse/issues",
     },
     install_requires=[],
-    packages=['morse'],
+    packages=find_packages(),
     license='BSD 3-Clause',
     python_requires='>=3',
     classifiers=[

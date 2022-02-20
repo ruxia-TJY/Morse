@@ -1,4 +1,8 @@
 # Morse
+[![](https://img.shields.io/badge/language-Python-blue)](https://www.python.org/) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ruxia-TJY/Morse) ![linux](https://img.shields.io/badge/-Linux-yellow?logo=linux) ![windows](https://img.shields.io/badge/-Windows-blue?logo=windows)
+
+ 
+
 
 A simple package for morse decode and encode.
 
